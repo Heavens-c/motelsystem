@@ -1,7 +1,7 @@
 OpenStorage = function(storageName, storageUUID)
     if Default.DiscInventory.Enabled then
         TriggerEvent("disc-inventoryhud:openInventory", {
-            type = "JAMES_MOTEL_STORAGE",
+            type = "RENZ_MOTEL_STORAGE",
             owner = storageUUID .. "-" .. storageName
         })
 
