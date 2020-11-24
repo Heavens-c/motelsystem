@@ -81,7 +81,7 @@ end)
 if Default.DiscInventory.Enabled then
     Citizen.CreateThread(function()
         TriggerEvent("disc-inventoryhud:RegisterInventory", {
-            name = "JAMES_MOTEL_STORAGE",
+            name = "RENZ_MOTEL_STORAGE",
             label = "Motel Storage",
             slots = Default.DiscInventory.Slots
         })
